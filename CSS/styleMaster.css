@@ -1,0 +1,20 @@
+/* ACCENT AND COLOUR THEMES */
+:root {
+    --backgroundColour: #000B58;
+    --primaryColour: #FFF4B7;
+    --secondaryColour: #006A67;
+    --accentColour: #003161;
+}
+/* GENERAL STYLING CONFIGURATIONS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    border: solid 0px;
+}
+/* WHOLE BODY STYLING */
+body{
+    background-color: var(--backgroundColour);
+    color:var(--primaryColour);
+    font-family: Lexend Deca;
+}
