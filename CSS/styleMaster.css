@@ -1,6 +1,6 @@
 /* ACCENT AND COLOUR THEMES */
 :root {
-    --backgroundColour: #000B58;
+    --backgroundColour: #000842;
     --primaryColour: #FFF4B7;
     --secondaryColour: #006A67;
     --accentColour: #003161;
@@ -17,4 +17,42 @@ body{
     background-color: var(--backgroundColour);
     color:var(--primaryColour);
     font-family: Lexend Deca;
+}
+/* HEADER - NAVIGATION BAR AND LOGO */
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 10px 20px;
+}
+/* LOGO */
+.logo{
+    font-size: 37px;
+}
+/* NAVIGATION BAR */
+.navigationBar{
+    background-color: var(--secondaryColour);
+    padding: 5px 30px;
+    border-radius: 30px;
+    align-content: center;
+}
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    padding: 0 10px;
+    gap: 10px;
+}
+.navLinks li a {
+    text-decoration: none;
+    color: var(--primaryColour);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 3px 10px;
+    border-radius: 15px;
+    transition: ease-in-out 0.2s;
+}
+.navLinks li a:hover {
+    color: var(--secondaryColour);
+    background-color: var(--primaryColour);
 }
